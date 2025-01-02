@@ -1,0 +1,167 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  @apply m-0 scroll-smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  @apply block max-w-full;
+}
+
+:root {
+  @apply bg-blue-700;
+}
+
+h1 {
+  @apply font-heading text-white text-balance text-center mt-6 font-bold max-w-2xl mx-auto text-3xl md:text-5xl lg:text-6xl;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading text-blue-50 text-balance font-bold;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg text-seafoam-500;
+}
+
+p,
+ol,
+ul,
+li {
+  @apply font-body font-normal text-lg leading-normal text-white text-pretty antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  @apply font-body;
+}
+
+a {
+  @apply font-heading text-blue-50;
+}
+
+span {
+  @apply text-blue-50;
+}
+
+a.text-link {
+  @apply py-1 border-b border-transparent;
+}
+
+a.text-link:hover {
+  @apply border-seafoam-500 transition duration-300;
+}
+
+a.text-link.active {
+  @apply text-seafoam-500 border-seafoam-500;
+}
+
+.main-container {
+  @apply w-full lg:container pt-20 pb-4 px-4 md:px-6;
+}
+
+@layer utilities {
+  .section-card {
+    @apply inline-block p-6 md:p-8 shadow-[inset_0_2px_4px_0_rgba(103,58,183,0.2)] border-t border-t-fuschia-300/20 space-y-4 bg-[rgba(31,41,55,.9)] rounded-3xl;
+  }
+
+  .section-card--accent {
+    @apply bg-fuschia-100 shadow-[inset_0_2px_4px_0_rgba(241,167,242,0.4)] border-t border-t-fuschia-neon/10;
+  }
+}
