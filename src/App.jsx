@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import Experience from "./pages/Experience";
 import Footer from "./components/Footer";
-import BackgroundBokeh from "./components/BackgroundBokeh";  // no .tsx extension needed for JS
+import BackgroundBokeh from "./components/BackgroundBokeh";  
 
 import "./App.css";
 
