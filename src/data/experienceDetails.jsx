@@ -5,9 +5,10 @@ export const experienceDetails = [
       company: "Skillsoft | Fredericton, NB",
       yearRange: "May 2024 - Aug 2024",
       description: [
-        "Analyzed LMS data to identify trends and opportunities, translating data into actionable insights for strategic positioning and sales enablement",
-        "Played a key role in the implementation of the Quarterly Business Review software, overseeing QA testing and deployment",
-        "Created and managed custom dashboards in ChurnZero",
+        "Initiated and led the development of the Learning Edge platform, a centralized website that streamlined access to key resources and reporting tools for both clients and internal teams",
+        "Played a pivotal role in the implementation and QA of the Quarterly Business Review software, collaborating with cross-functional teams to ensure smooth deployment across the organization",
+        "Analyzed client LMS data to identify actionable insights, prioritizing opportunities for product improvement and roadmap refinement",
+        "Optimized onboarding with ChurnZero segmentation for targeted outreach and retention tracking",
       ],
       skillsAndTools: [
         "advanced excel",
@@ -31,10 +32,10 @@ export const experienceDetails = [
       company: "Bespoke Metrics | Toronto, ON",
       yearRange: "Nov 2022 - May 2024",
       description: [
-        "Successfully managed a portfolio of 70 enterprise clients with a $3M annual recurring revenue stream",
-        "Achieved a 97% retention rate and surpassed revenue targets by 30% through proactive relationship management and upselling additional services, including API integrations, data extractions, and custom dashboards",
-        "Facilitated end-to-end implementation of financial risk mitigation software, driving feature adoption to maximize product utilization",
-        "Collaborated with product teams and engineers to drive product enhancements by writing epics, user stories, and acceptance criteria, ensuring alignment with client requests and business goals",
+        "Successfully managed a portfolio of 70 enterprise clients with a $3M ARR, securing timely contract renewals and achieving a 97% retention rate through proactive relationship management",
+        "Managed the full lifecycle of enterprise client product implementation and adoption, providing feedback loops that influenced feature development",
+        "Led API integrations and data extractions, ensuring seamless data flow and exceeded upsell revenue targets by over 30%",
+        "Collaborated with product teams and engineers to drive product enhancements by writing epics, user stories, and acceptance criteria, ensuring alignment with client needs and business goals",
       ],
       skillsAndTools: [
         "Jira",
