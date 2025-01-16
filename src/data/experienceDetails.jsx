@@ -59,9 +59,10 @@ export const experienceDetails = [
       company: "Bluetrain Inc.",
       yearRange: "Jan 2022 - Nov 2022",
       description: [
-        "Coordinated the development and execution of multi-channel digital marketing campaigns, regularly engaging with stakeholders to present analytics to refine strategies to drive growth",
+        "Coordinated the development of wireframes and mockups for website redevelopment projects, and managed the execution of multi-channel digital marketing campaigns to drive growth",
         "Applied agile methodologies to manage digital projects valued up to $150K, resulting in a 20% reduction in delivery times",
         "Led cross-functional teams in sprint planning and stand-ups, ensuring timely milestone completion and alignment of objectives",
+        "Evaluated client websites for performance and SEO opportunities, implementing actionable strategies to enhance website tracking and discovery"
       ],
       skillsAndTools: [
         "google analytics",
@@ -74,6 +75,30 @@ export const experienceDetails = [
         "data analytics",
         "budget management",
         "wireframes",
+      ],
+    },
+    {
+      id: "ncs",
+      jobTitle: "Corporate Sales Coordinator",
+      company: "National Carwash Solutions | Grimes, IA",
+      yearRange: "Jul 2020 - Dec 2021",
+      description: [
+        "Created and customized reports in Salesforce to analyze sales performance and key metrics, aligning accounts with budget goals",
+        "Built interactive dashboards to provide real-time insights into KPIs",
+        "Developed and executed SOQL queries to extract and analyze specific data sets, refining reporting precision",
+        "Championed the development and roll out of a national training program with Wilson Learning to ensure all key personnel completed Consultative Sales Process education",
+        "Forecasted $750K program budget and presented project plan to senior executives, ensuring alignment with organizational objectives"
+  
+      ],
+      skillsAndTools: [
+        "SQL",
+        "Project Management",
+        "Salesforce",
+        "Dashboards",
+        "Sales Forecasting",
+        "Program Management",
+        "SOQL",
+        "Agile Methodologies",
       ],
     },
   ];
