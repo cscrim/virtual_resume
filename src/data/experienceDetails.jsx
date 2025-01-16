@@ -32,7 +32,7 @@ export const experienceDetails = [
       company: "Bespoke Metrics | Toronto, ON",
       yearRange: "Nov 2022 - May 2024",
       description: [
-        "Successfully managed a portfolio of 70 enterprise clients with a $3M ARR, securing timely contract renewals and achieving a 97% retention rate through proactive relationship management",
+        "Successfully managed a portfolio of 70 enterprise clients with a $3M ARR stream, securing timely contract renewals and achieving a 97% retention rate through proactive relationship management",
         "Managed the full lifecycle of enterprise client product implementation and adoption, providing feedback loops that influenced feature development",
         "Led API integrations and data extractions, ensuring seamless data flow and exceeded upsell revenue targets by over 30%",
         "Collaborated with product teams and engineers to drive product enhancements by writing epics, user stories, and acceptance criteria, ensuring alignment with client needs and business goals",
